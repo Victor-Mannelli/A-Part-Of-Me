@@ -1,38 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# POME - Personal Anime Catalog Project
 
-## Getting Started
+Started: 2023 <br/>
+Status: In Progress
 
-First, run the development server:
+POME is an anime catalog project I initially created as a capstone project for the Driven bootcamp. Over time, it has evolved significantly, and I continue to work on it as a personal project. Originally built with React and Node.js, I later migrated POME to Next.js and Nest.js, with Prisma ORM, to create a full-stack application that leverages my preferred technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The application includes a catalog with filters, detailed anime pages (with information such as descriptions, release dates, tags, and trailers), user registration and login, and a complete user CRUD. The project integrates the free GraphQL API from Anilist.co, allowing streamlined data retrieval for anime information through Apollo for query and request management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+POME also features real-time chat functionality using WebSocket, allowing users to interact, receive friend notifications, and maintain a social experience within the app. For code quality, I implemented custom ESLint configurations and Husky to ensure consistent code formatting.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Demo and Setup
+You can view the demo by setting up the application locally:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Clone the repository. <br/>
+Install dependencies via npm install. <br/>
+Run the development server with npm run dev. <br/>
+Prerequisites <br/>
+Node.js, PostgreSQL database, Anilist API key for anime data.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Anime Catalog: Search, filter, and browse anime titles with detailed information <br/>
+User Management: Full CRUD functionality for user accounts <br/>
+Real-Time Chat: WebSocket integration for user interactions and friend notifications <br/>
+GraphQL API Integration: Fetch anime data from Anilist.co using Apollo <br/>
+Code Quality: Custom ESLint rules and Husky for consistent formatting <br/>
 
-## Learn More
+# Competencies Used
 
-To learn more about Next.js, take a look at the following resources:
+## Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js: For server-rendered React and optimized performance <br/>
+Tailwind CSS: Custom styling and responsive design <br/>
+React Hooks: State and lifecycle management <br/>
+TypeScript: Type safety and improved maintainability <br/>
+Apollo Client: Manages GraphQL requests <br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Backend
 
-## Deploy on Vercel
+Nest.js: Server-side logic <br/>
+Prisma ORM: Database interactions with PostgreSQL <br/>
+REST and WebSocket APIs: For real-time and CRUD operations <br/>
+PostgreSQL: Persistent data storage <br/>
+DBeaver and Postman: For database management and API testing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Frontend: Next.js, Tailwind, React Hooks, TypeScript <br/>
+Backend: Nest.js, Prisma ORM, SQL (PostgreSQL) <br/>
+Real-Time: WebSocket <br/>
+API Management: Apollo, GraphQL, REST <br/>
+Tools: ESLint, Husky, DBeaver, Postman, Docker <br/>
+
+## Future Plans
+
+As POME continues to evolve, I plan to add more features, improve UI/UX, and incorporate additional social functionalities to further enhance the user experience.
+
+## Acknowledgments
+This project utilizes the free GraphQL API from Anilist.co, which enables comprehensive anime data for an enriched catalog experience.
+
+## Contact
+If you have any questions or feedback, feel free to reach out at https://www.linkedin.com/in/victor-mendes-mannelli.
